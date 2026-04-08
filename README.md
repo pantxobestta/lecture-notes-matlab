@@ -1,8 +1,8 @@
-# Lecture Notes – MATLAB Code Snippets
+# Apuntes de Señales y Sistemas – Código MATLAB
 
-This repository contains MATLAB code examples extracted from the lecture notes in Spanish. The files are organized by chapter, preserving original comments (including accented characters).
+Este repositorio contiene fragmentos de código MATLAB extraídos de los **apuntes del curso Señales y Sistemas** de la Universidad de los Andes. Los ejemplos están organizados por capítulo y se conservan los comentarios originales (incluyendo acentos).
 
-## Structure
+## Estructura
 ```
 lecture-notes-matlab/
 ├── README.md
@@ -14,51 +14,52 @@ lecture-notes-matlab/
 ├── chapter06/
 ├── chapter07/
 ├── chapter08/
-└── chapter09/
+├── chapter09/
+├── chapter10/
+├── chapter11/
+├── chapter12/
+├── chapter13/
+└── ...
 ```
-## Usage
-Open any `.m` file in MATLAB or Octave. The code is provided as‑is, as it appears in the lecture notes.
-## Index
-### chapter01
 
-### chapter02
-- `listing_01.m`: Definición del eje temporal solo para valores positivos
-- `listing_02.m`: Definición del eje temporal
-- `listing_03.m`: Definición del eje temporal
-- `listing_04.m`: Configuración del eje temporal
+## Uso
+Abre cualquier archivo `.m` en MATLAB o GNU Octave. El código se proporciona tal como aparece en los apuntes, sin modificaciones. No se incluyen funciones auxiliares adicionales; si las necesitas, consulta los apuntes o la documentación de MATLAB.
 
-### chapter03
-- `listing_01.m`: Parámetros
+## Índice
+### Capítulo 1
 
-### chapter04
-- `listing_01.m`: Parámetros
+### Capítulo 2
 
-### chapter05
-- `listing_01.m`: Ejemplo rapido: señal y su transformada usando FFT
-- `listing_02.m`: EJEMPLO: Calcular y graficar coeficientes de Fourier de sin(w0 t)
+### Capítulo 3
 
-### chapter06
-- `listing_01.m`: Parametros
+### Capítulo 4
 
-### chapter07
-- `listing_01.m`: Ejemplo: Filtro Pasa‑bajos (orden 1) + Filtro ideal para comparación
-- `listing_02.m`: Filtro Butterworth pasa-bajos (analogo, magnitud)
-- `listing_03.m`: Bode de 1er Orden
-- `listing_04.m`: Bode 2do Orden
+### Capítulo 5
+- `listing_01.m`: %
+- `listing_02.m`: El siguiente código MATLAB ilustra cómo se comporta una señal $x(t)$ bajo escalamiento lineal, mostrando los casos $x...
 
-### chapter08
-- `listing_01.m`: Ejemplo: Muestrear x(t) = sin(2*pi*1kHz * t),  en [0, 2 ms]
-- `listing_02.m`: Ejemplo: Interpolar secuencia con una sinc
-- `listing_03.m`: Muestras
-- `listing_04.m`: % Señal original: seno de 5 Hz, muestreado a 1000 Hz durante 1 s
+### Capítulo 6
+- `listing_01.m`: A continuación, se genera un gráfico de $y(t)$ para diferentes valores de $$ y $$ en MATLAB:
 
-### chapter09
-- `listing_01.m`: AM-DSB-SC y su espectro
-- `listing_02.m`: Detector de envolvente
-- `listing_03.m`: Descripción no disponible
-- `listing_04.m`: Modulación DSB-SC
+### Capítulo 7
+- `listing_01.m`: A continuación, se presenta un código en MATLAB para visualizar la serie de Fourier y sus coeficientes:
 
-## Source
-Original LaTeX project: Señales y Sistemas (private Overleaf project). Extracted automatically and uploaded here for student use.
+### Capítulo 8
+- `listing_01.m`: que genera una señal (por ejemplo, un pulso) y muestra su transformada de Fourier mediante la función :
+- `listing_02.m`: A continuación, se presenta un ejemplo de código que ilustra cómo calcular numéricamente los coeficientes de Fourier ...
+
+### Capítulo 9
+- `listing_01.m`: A continuación, se presenta un código MATLAB que grafica:
+
+### Capítulo 10
+
+### Capítulo 11
+
+### Capítulo 12
+
+### Capítulo 13
+
+## Fuente
+Proyecto LaTeX original: Señales y Sistemas (Overleaf privado). Extraído automáticamente y organizado para uso estudiantil.
 ---
-*If you find a code snippet missing, please open an issue.*
+*Si encuentras un fragmento faltante o deseas contribuir, abre un issue.*
