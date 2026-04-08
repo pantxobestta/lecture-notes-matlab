@@ -14,14 +14,7 @@ lecture-notes-matlab/
 ├── chapter06/
 ├── chapter07/
 ├── chapter08/
-├── chapter09/
-├── chapter10/
-├── chapter11/
-├── chapter12/
-├── chapter13/
-├── chapter14/
-├── chapter15/
-└── ...
+└── chapter09/
 ```
 ## Usage
 Open any `.m` file in MATLAB or Octave. The code is provided as‑is, as it appears in the lecture notes.
@@ -64,18 +57,6 @@ Open any `.m` file in MATLAB or Octave. The code is provided as‑is, as it appe
 - `listing_02.m`: Detector de envolvente
 - `listing_03.m`: Descripción no disponible
 - `listing_04.m`: Modulación DSB-SC
-
-### chapter10
-
-### chapter11
-
-### chapter12
-
-### chapter13
-
-### chapter14
-
-### chapter15
 
 ## Source
 Original LaTeX project: Señales y Sistemas (private Overleaf project). Extracted automatically and uploaded here for student use.
